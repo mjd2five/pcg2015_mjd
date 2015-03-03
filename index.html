@@ -24,6 +24,11 @@ H1{
     </style>
   </head>
   <body>
+  <form method = "post">
+        
+    <input value="default text ">
+    <input type="password" value="go">
+  </form>
 <table>
   <tr>
     <th>
@@ -49,3 +54,43 @@ H1{
 </B></Strong>
 
 <!--how to comment-->
+
+
+<Body>
+  <Field Set>
+    <legend>"Your Details:"</legend>
+    <label>Name:</label>
+    <input type="text" name="Name" /></label><br />
+    <label>Email:</label>
+    <input type="text" name="Email" /></label><br />
+  </Field Set>
+  <Field Set>
+    <legend>"Your Review:"</legend><br />
+    <form>
+    <p>How did you hear about us?</p>
+    <select name="sites">
+      <option value="google">Google</option>
+      <option value="yahoo">Yahoo</option>
+      <option value="bing">Bing</option>
+    </select>
+    </form>
+    <form>
+      <p>Would you visit us again?</p>
+      <input type="radio" name="answer" value="Yes" checked="checked" />
+      <input type="radio" name="answer" value="Yes" />
+      <input type="radio" name="answer" value="Maybe" />
+    </form><br />
+    <form>
+      <p>Comments:</p>
+      <textarea name="comments" cols="30" rows="3"></textarea>
+    </form>
+    <form>
+      <input type="checkbox" name = updates checked="checked">
+      <p> Sign me up for email updates</p>
+    </form>
+    <form>
+      <button>Submit review</button>
+    </form>
+      
+  
+  
